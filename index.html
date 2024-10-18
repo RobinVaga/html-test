@@ -1,68 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <header class="flex justify-between gap-8 mx-8 my-4 items-center">
-      <img
-        class="h-12 w-24"
-        src="https://play-lh.googleusercontent.com/YaasJsy46v32r1uVm5NhpngbzuqvwTtwo6itm503ytqiS5MMACpNKaXSQmtMTJBY8ccq"
-        alt=""
-      />
-      <div class="flex gap-8 font-bold">
-        <a class="text-[18px] text-[#ff5000] hover:text-[#ff5000]" href=""
-          >Osta pilet</a
-        >
-        <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href=""
-          >Sõiduplaanid</a
-        >
-        <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href=""
-          >Pileti tagastamine</a
-        >
-        <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href=""
-          >Uudised</a
-        >
-        <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href=""
-          >Ärikliendileping</a
-        >
-        <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href=""
-          >Info</a
-        >
-      </div>
-      <div class="flex my-auto">
-        <div class="flex flex-col text-end border-r-2 text-gray-400 border-gray-400 pr-8">
-          <a href="tel:+37212550">12550</a>
-          <a href="mailto:info@pilet.ee">info@pilet.ee</a>
-        </div>
-        <div
-          class="flex gap-8 items-center mx-8 text-gray-400 text-xl font-semibold"
-        >
-          <p class="text-[#ff5000]">ET</p>
-          <p>EN</p>
-          <p>RU</p>
-        </div>
-      </div>
-    </header>
-    <!-- body -->
-    <div
-      class="bg-center bg-cover min-h-screen flex flex-col items-center" style="background-image: url('https://webcms.tpilet.ee/static/taustapilt.jpg')"
-    >
-      <h2 class="text-4xl bg-center font-sans-serif">Osta bussipiletid</h2>
-      <div class="bg-white flex flex-col items-center p-8">
-        <div class="flex justify-around text-2xl font-semibold my-4 gap-8">
-          <p class="text-[#ff5000] border-b-2 border-[#ff5000]">Üks suund</p>
-          <p>Edasi-Tagasi</p>
-        </div>
-        <div class="flex flex-col space-y-4 mt-12">
-            <input type="text" placeholder="Lähtepeatus" class="p-2 w-3/4 rounded-md mb-4" />
-            <input type="text" placeholder="Sihtpeatus" class="p-2 w-3/4 rounded-md mb-4" />
-          <input class="flex justify-center" type="date" name="" id="" />
-        </div>
-      </div>
-      <button class="bg-[#ff5000] h-20 w-40 rounded-md justify-center mt-8 text-white">OTSI REISE</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="flex justify-between gap-8 mx-8 my-4 items-center">
+    <img class="h-12 w-24"
+      src="https://play-lh.googleusercontent.com/YaasJsy46v32r1uVm5NhpngbzuqvwTtwo6itm503ytqiS5MMACpNKaXSQmtMTJBY8ccq"
+      alt="" />
+    <div class="flex gap-8 font-bold">
+      <a class="text-[18px] text-[#ff5000] hover:text-[#ff5000]" href="">Osta pilet</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Sõiduplaanid</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Pileti tagastamine</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Uudised</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Ärikliendileping</a>
+      <a class="text-[18px] text-gray-400 hover:text-[#ff5000]" href="">Info</a>
     </div>
-  </body>
+    <div class="flex my-auto">
+      <div class="flex flex-col text-end border-r-2 text-gray-400 border-gray-400 pr-8">
+        <a href="tel:+37212550">12550</a>
+        <a href="mailto:info@pilet.ee">info@pilet.ee</a>
+      </div>
+      <div class="flex gap-8 items-center mx-8 text-gray-400 text-xl font-semibold">
+        <p class="text-[#ff5000]">ET</p>
+        <p class="hover:text-gray-400 cursor-pointer" href="">EN</p>
+        <p class="hover:text-gray-400 cursor-pointer" href="">RU</p>
+      </div>
+    </div>
+  </header>
+  <!-- body -->
+  <div class="bg-center bg-cover min-h-screen flex flex-col items-center"
+    style="background-image: url('https://webcms.tpilet.ee/static/taustapilt.jpg')">
+    <h2 class="text-4xl bg-center font-sans-serif mt-12">Osta bussipiletid</h2>
+    <div class="bg-white h-400 w-506 flex flex-col items-center p-10 mt-10 ">
+      <div class="flex justify-around text-2xl font-semibold my-4 gap-12">
+        <p class="text-[#ff5000] border-b-2 border-[#ff5000] hover:text-[#ff5000] ">Üks suund</p>
+        <p class="text-gray-400 cursor-pointer">Edasi-Tagasi</p>
+      </div>
+      <div class="flex flex-col space-y-4 mt-12">
+        <input type="text" placeholder="Lähtepeatus" class="p-2 w-3/4 rounded-md mb-4" />
+        <input type="text" placeholder="Sihtpeatus" class="p-2 w-3/4 rounded-md mb-4" />
+        <input class="flex justify-center" type="date" name="" id="" />
+        <button class="bg-[#ff5000] h-10 w-40 rounded-md justify-center mt-8 text-white">OTSI REISE</button>
+        <h2 class="flex justify-center font-semibold">Populaarsed suunad</h2>
+        <div>
+        <p class="text-sm flex justify-between px-12 text-gray-400">Tallinn > Tartu
+        </p>
+        <p class="text-sm flex justify-between px-12 text-gray-400">Tallinn > Pärnu
+          <p class="text-sm flex justify-between px-12 text-gray-400">Tartu > Tallinn
+          </p>
+          <p class="text-sm flex justify-between px-12 text-gray-400">Pärnu > Tallinn
+        </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
